@@ -326,40 +326,21 @@ p, label {
       -moz-box-shadow: 0px 6px 19px -5px rgba(0, 0, 0, 0.5);
       box-shadow: 0px 6px 19px -5px rgba(0, 0, 0, 0.5);
       transform: translate(0, -5px); }
-  #departments:before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 0;
-    left: -25%;
-    z-index: -1;
-    width: 150%;
-    height: 75%;
-    background: inherit;
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    height: 50%;
-    background: #116094;
-    -webkit-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    -webkit-transform-origin: 3% 0;
-    transform-origin: 3% 0; }
   #departments:after {
     display: block;
     position: absolute;
     content: '';
-    top: 0;
-    left: -25%;
-    z-index: -1;
-    width: 150%;
-    height: 75%;
-    background: inherit;
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0; }
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #039be5;
+    /** Change This Value ***/
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1; }
 
 #plano {
   background-image: url("../img/samples/plan-original.jpg");
