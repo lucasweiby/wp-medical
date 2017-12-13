@@ -1,0 +1,67 @@
+#footer {
+	font-family: $font;
+	font-size: 12px;
+	background-color: $dark;
+	padding: 10px 0;
+	.footer-content {
+		height: 30%;
+		padding: 5% 0;
+		.footer-logo {
+			img {
+				display: block;
+				margin: 0 auto;
+				width: 50%;
+			}
+		}
+		.footer-end, .footer-posts {
+			h4 { 
+				color: $light-blue;
+				font-weight: 900;
+				margin: 5% 0;
+			}
+			h6 {
+				color: $light;
+			}
+		}
+	}
+	.footer-links {
+		a {
+			color: $light;
+			text-decoration: none;
+			&:hover {
+				color: $gray;
+				@include fade-in;
+			}
+		}
+	}
+	.social {
+		display: block;
+		margin: 0 auto;
+		ul {
+			li {
+				float: left;
+				padding: 0 10px;
+				list-style-type: none;
+				text-align: center;
+				a {
+					color: $light;
+					text-decoration: none;
+					&:hover {
+						color: $gray;
+						@include fade-in;
+					}
+				}
+			}
+		}
+	}
+	.ajat {
+		a {
+			color: $light;
+			text-decoration: none;
+			&:hover {
+				color: $gray;
+				@include fade-in;
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.navbar-default {
+	background-color: $light;
+	border-color: $light;
+	.navbar-nav {
+		li {
+			a {
+				color: $dark;
+				@include fade-in;
+				&:hover, &:active, &:after, &:focus {
+					color: $light-blue;
+				}
+			}
+		}
+	}
+	.navbar-toggle {
+		border: none;
+		.icon-bar {
+			background-color: $light-blue;
+		}
+		&:active, &:focus {
+			background-color: transparent;
+		}
+	}	
+}

@@ -1,0 +1,48 @@
+#plano {
+	background-image: url('../img/samples/plan-original.jpg');
+	background-size: cover;
+	background-position: 0;
+	background-color: $blue;
+	background-blend-mode: screen;
+	height: 400px;
+	.um {
+		border-bottom: 2px solid #2E2E2E;
+		text-align: left;
+		width: 50%;
+	}
+	.dois {
+		// border-bottom: 2px solid #2E2E2E;
+		float: right;
+		text-align: right;
+		width: 50%;
+		h1 {
+			margin-top: -1%;
+			font-size: 60px;
+		}
+		.plan-btn {
+			background-color: $sec-blue;
+			border-radius: 0;
+			border: none;
+			margin: 3% 0;
+			width: 100%;
+			.btn-ico {
+				color: $light;
+				padding: 10px;
+			}
+			.btn-text {
+				color: $light;
+				padding: 10px;
+				text-transform: uppercase;
+				font-family: 'Raleway', sans-serif;
+				font-size: 12px;
+				font-weight: 800;
+			}
+			&:hover {
+				background-color: $dark-sec-blue;
+				@include fade-in;
+				@include up-shadow;
+				transform: translate(0,-5px);
+			}
+		}
+	}
+}

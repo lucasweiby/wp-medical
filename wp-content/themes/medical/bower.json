@@ -1,0 +1,21 @@
+{
+  "name": "medical",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "lucasweiby <lucasweiby@ajatdesenvolvimento.com.br>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/alcidesjunior/templates",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "scrollreveal": "^3.3.6"
+  }
+}

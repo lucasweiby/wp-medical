@@ -1,0 +1,49 @@
+#services {
+	position: relative;
+	padding-top: 0;
+	width: 100%;
+	margin-top: -19vh;
+	z-index: 1;
+	@include mobile {
+		margin: 0;
+		padding-bottom: 10%;
+	}
+	.services-box {
+		height: 250px;
+		text-align: center;
+		color: $light;
+		@include mobile {
+			height: 150px;
+		}
+		i {
+			margin-top: 20%;
+			font-size: 80px;
+			@include mobile {
+				margin-top: 7%;
+				font-size: 50px;
+			}
+		}
+		p {
+			padding: 10px 0 0 0;
+			margin-bottom: 0;
+			font-size: 18px;
+			font-weight: 900;
+			@include mobile {
+				font-size: 14px;
+			}
+		}
+		label {
+			font-weight: 50;
+			text-transform: uppercase;
+			@include mobile {
+				font-size: 10px;
+			}
+		}
+	}
+	.um {
+		background-color: $light-blue;
+	}
+	.dois {
+		background-color: $blue;
+	}
+}

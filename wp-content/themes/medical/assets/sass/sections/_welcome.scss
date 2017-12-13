@@ -1,0 +1,37 @@
+#welcome {
+	position: relative;
+	.sig {
+		color: $light-blue;
+	}
+	.med {
+		color: $sec-blue;
+	}
+	.welcometext {
+		text-align: justify;
+		margin-top: 5%;
+	}
+	.btn-default {
+		background-color: $light-blue;
+		border-radius: 0;
+		border: none;
+		margin: 3% 0;
+		.btn-ico {
+			color: #fff;
+			padding: 10px;
+		}
+		.btn-text {
+			color: #fff;
+			padding: 10px;
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif;
+			font-size: 12px;
+			font-weight: 800;
+		}
+		&:hover {
+			background-color: $blue;
+			@include fade-in;
+			@include up-shadow;
+			transform: translate(0,-5px);
+		}
+	}
+}
