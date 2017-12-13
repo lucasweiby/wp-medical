@@ -43,6 +43,10 @@ $(document).ready(function() {
         origin: 'right'
     });
 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
     var app = document.getElementById('text');
 
     var typewriter = new Typewriter(app, {

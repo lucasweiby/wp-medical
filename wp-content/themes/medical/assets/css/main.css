@@ -406,6 +406,16 @@ p, label {
       margin: 5% 0; }
     #footer .footer-content .footer-end h6, #footer .footer-content .footer-posts h6 {
       color: #f2f2f2; }
+    #footer .footer-content .footer-end a, #footer .footer-content .footer-posts a {
+      color: #f2f2f2;
+      text-decoration: none; }
+      #footer .footer-content .footer-end a:hover, #footer .footer-content .footer-posts a:hover {
+        color: #616161;
+        -o-transition: .2s;
+        -ms-transition: .2s;
+        -moz-transition: .2s;
+        -webkit-transition: .2s;
+        transition: .2s; }
   #footer .footer-links a {
     color: #f2f2f2;
     text-decoration: none; }

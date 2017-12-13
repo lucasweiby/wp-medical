@@ -21,8 +21,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="index">
-              <img style="height: 200%; margin-top: -20%" class="img img-responsive" src="assets/img/samples/logo1.png" alt="Completta Telecom" />
+            <a class="navbar-brand page-scroll" href="<?php bloginfo('url'); ?>">
+              <img style="height: 200%; margin-top: -20%" class="img img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/samples/logo1.png" alt="Completta Telecom" />
               <!-- Template -->
             </a>
         </div>

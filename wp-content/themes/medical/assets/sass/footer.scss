@@ -22,6 +22,14 @@
 			h6 {
 				color: $light;
 			}
+			a {
+				color: $light;
+				text-decoration: none;
+				&:hover {
+					color: $gray;
+					@include fade-in;
+				}
+			}
 		}
 	}
 	.footer-links {

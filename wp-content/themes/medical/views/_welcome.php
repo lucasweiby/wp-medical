@@ -13,7 +13,7 @@
 				</button>
 			</div>
 			<div class="col-md-5 img-welcome">
-				<img src="assets/img/samples/up.jpg" class="img-responsive sample-hospital">
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/samples/up.jpg" class="img-responsive sample-hospital">
 			</div>
 		</div>
 	</div>

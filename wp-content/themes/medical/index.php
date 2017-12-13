@@ -2,7 +2,7 @@
 <html>
 <?php session_start();?>
   <?php include 'conf/_head.php'; ?>
-  <body>
+  <body <?php body_class(); ?>>
     <main>
       <?php
         include 'views/content_header/_navbar.php';

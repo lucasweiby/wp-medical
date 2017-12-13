@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row footer-content">
       <div class="col-md-4 footer-logo">
-        <img src="assets/img/samples/logo1.png" alt="" class="img-responsive">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/samples/logo1.png" alt="" class="img-responsive">
       </div>
       <div class="col-md-4 footer-end">
         <h4>ENDEREÇO</h4>
-        <h6><i class="fa fa-map-marker" aria-hidden="true"></i> R. Visc. de Mauá, 2055 - Meireles, Fortaleza - CE, 60125-160</h6>
+        <h6><i class="fa fa-map-marker" aria-hidden="true"></i> R. Visc. de Mauá, 2055 - Meireles, Fortaleza - CE <br> CEP: 60125-160</h6>
         <h6><i class="fa fa-phone" aria-hidden="true"></i> (00) 0000-0000</h6>
-        <h6><i class="fa fa-envelope-o" aria-hidden="true"></i> exemplo@email.com.br</h6>
+        <h6><i class="fa fa-envelope-o" aria-hidden="true"></i> <a data-toggle="tooltip" data-placement="bottom" title="Clique para enviar um e-mail!" href="mailto:<?php bloginfo('admin_email'); ?>">exemplo@email.com.br</a></h6>
       </div>
       <div class="col-md-4 footer-posts">
         <h4>POSTAGENS RECENTES</h4>
@@ -18,7 +18,7 @@
     <div class="row rodape">
       <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="footer-links p-t">
-          <a href="#" class="copy">&copy; Copyright (c) 2017 Empresa. Todos os direitos reservados.</a>
+          <a href="#" class="copy">&copy; Copyright (c) <?php echo date('Y'); ?> Empresa. Todos os direitos reservados.</a>
         </div>
       </div>
       <div class="col-md-5 col-sm-12 col-xs-12 social">
